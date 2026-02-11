@@ -34,7 +34,7 @@ O projeto possui duas configurações Docker Compose:
 Configuração básica com logs direcionados para stdout:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 Nesta configuração:
@@ -47,7 +47,7 @@ Nesta configuração:
 Configuração completa com stack de observabilidade:
 
 ```bash
-docker-compose -f docker-compose-full.yml up -d
+docker compose -f docker-compose-full.yml up -d
 ```
 
 Nesta configuração:
