@@ -1,0 +1,67 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+docs/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test files and coverage
+*_test.go
+testdata/
+*.out
+cover.out
+coverage.out
+coverage.html
+.testcoverage.yml
+
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Docker files (no need to copy these into the image)
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+
+# Dependencies (will be downloaded during build)
+vendor/
+
+# Logs
+*.log
+logs/
+
+# OS files
+Thumbs.db
